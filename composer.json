@@ -1,0 +1,25 @@
+{
+    "name": "brunoduarte/module-faq",
+    "description": "Module responsible for managing customer questions and answers.",
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Bruno Duarte",
+            "email": "bruno.meddua@gmail.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~8.1.0||~8.2.0"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "Brunoduarte\\Faq\\": ""
+        }
+    }
+}
