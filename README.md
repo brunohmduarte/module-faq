@@ -9,10 +9,10 @@ Também, contém um painel administrativo permitindo que o administrador da loja
 ## Detalhes da Instalação
 
 ```
-composer config repositories.brunoduarte/faq vcs https://github.com/brunohmduarte/module-faq.git
+composer config repositories.brunoduarte/module-faq vcs https://github.com/brunohmduarte/module-faq.git
 ```
 ```
-composer require brunoduarte/faq
+composer require brunoduarte/module-faq:dev-main
 ```
 
 ### Layouts
